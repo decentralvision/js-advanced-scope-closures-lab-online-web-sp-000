@@ -1,4 +1,4 @@
-function produceDrivingRange() {
+function produceDrivingRange(range) {
   return function(bar, baz) {
 
   }
