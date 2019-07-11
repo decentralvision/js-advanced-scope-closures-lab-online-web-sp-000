@@ -3,7 +3,7 @@ function produceDrivingRange(range) {
     const [barInt, bazInt] = [parseInt(bar), parseInt(baz)]
     const distance = Math.abs(barInt - bazInt)
     if (distance > range) {
-      return `${distance - range} out of range`
+      return `${distance - range} blocks out of range`
     } else {
       return `within range by ${range - distance}`
     }
