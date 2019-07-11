@@ -1,3 +1,5 @@
 function produceDrivingRange() {
-  return function(bar, baz)
+  return function(bar, baz) {
+
+  }
 }
